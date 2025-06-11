@@ -1,0 +1,48 @@
+.row{
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex:1;
+}
+p{
+    margin: 0;
+    font-family: Arial;
+    margin-left: 20px;
+    
+}
+.pfp{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.about,.popular{
+    color:rgb(156, 150, 150)
+}
+.about{
+    font-weight: 200;
+    font-size: 16px;
+}
+.popular{
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.button{
+    background-color: rgb(38, 124, 254);
+    border:none;
+    color:white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}
