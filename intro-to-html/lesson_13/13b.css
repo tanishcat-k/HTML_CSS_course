@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+}
+
+.pink{
+    width: 100px;
+    background-color: lightpink;
+}
+
+.blue{
+    width: 200px;
+    background-color: lightblue;
+}
+
+p{
+    margin: 0;
+}
+.inner-box{
+    display: flex;
+    justify-content: space-between;
+}
+.row2{
+    color: white;
+    background-color: black;
+    margin-bottom: 15px;
+
+}
